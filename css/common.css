@@ -1,0 +1,297 @@
+.public-head{
+    height: 110px;
+}
+
+.public-head .head-logo{
+    float: left;
+    margin-top: 40px;
+}
+
+.public-head .head-logo a{
+    height: 54px;
+    width: 182px;
+    height: 54px;
+    background: url("../images/index-head-logo.png") no-repeat;
+}
+
+.public-head .head-nav{
+    float: right;
+    font-size: 14px;
+}
+
+.public-head .head-nav a:hover{
+    text-decoration: underline;
+}
+
+.public-head .head-nav .item{
+    float: left;
+    margin-top: 44px;
+    margin-left: 50px;
+}
+.public-head .head-nav a{
+    color: #3b3b3b;
+}
+/*
+这个之前就是头的
+下面是尾部
+ */
+.public-content{
+    margin: 0 auto;
+    width: 1100px;
+}
+
+.public-foot{
+    background: #3b3b3b;
+    height: 218px;
+    padding-top: 100px;
+}
+
+.public-foot .foot-col{
+    width: 230px;
+    float: left;
+    margin-right: 60px;
+    font-size: 16px;
+    color: #fff;
+    line-height: 1.8;
+}
+
+.public-foot .foot-col .foot-logo{
+    width: 182px;
+    height: 55px;
+    background-image: url("../images/index-foot-logo.png");
+    margin-top: 10px;
+}
+
+.public-foot .foot-col:last-child{
+    margin-right: 0;
+}
+/*
+上面是尾部
+下面是banner
+ */
+
+.index-banner{
+    position: relative;
+    background: #b3b3b3;
+}
+
+.index-banner-bg{
+    height: 570px;
+    overflow: hidden;
+}
+
+.index-banner-bg img{
+    margin: 0 auto;
+}
+
+.index-banner-text{
+    position: absolute;
+    top: 200px;
+    left: 50%;
+    margin-left: -388px;
+}
+
+.index-banner-text .text-logo{
+    background-image: url("../images/index-banner-text.png");
+    width: 776px;
+    height: 113px;
+}
+
+.index-banner-text .text-info{
+    margin-top: 17px;
+    text-align: center;
+    color: #fff;
+}
+
+.index-banner-text .text-info .line{
+    display: inline-block;
+    text-align: center;
+    width: 40px;
+    border-top: 1px solid #fff;
+    vertical-align: middle;
+}
+
+.index-banner-text .text-info .line-l{
+    margin-right: 26px;
+}
+.index-banner-text .text-info .line-r{
+    margin-left: 26px;
+}
+
+/*
+接下来是menu了
+ */
+.index-menu{
+    position: relative;
+    border-top: 4px solid #f34949
+}
+
+.index-menu .menu-tips{
+    position: absolute;
+    left: 50%;
+    top: 0;
+    margin-left: -78px;
+    width: 156px;
+    height: 75px;
+    text-align: center;
+    line-height: 65px;
+    color: #fff;
+    background: #f34949;
+}
+
+.index-menu .menu-tips:after{
+    position: absolute;
+    content: '';
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 0;
+    border-left: 78px solid transparent;
+    border-right: 78px solid transparent;
+    border-bottom: 10px solid #fff;
+}
+
+.index-menu .menu-list{
+    margin-top: 150px;
+    color: #555;
+    overflow: hidden;
+}
+
+.index-menu .menu-list ul{
+    width: 1200px;
+}
+
+.index-menu .menu-item{
+    float: left;
+    width: 520px;
+    margin-left: 20px;
+    margin-right: 60px;
+    margin-bottom: 56px;
+}
+
+.index-menu .menu-item .title, .index-menu .menu-item .line{
+    float: left;
+}
+
+.index-menu .menu-item .price{
+    float: right;
+    margin-right: 40px;
+}
+
+.index-menu .menu-item .title{
+    width: 230px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.index-menu .menu-item h4{
+    color: #747474
+}
+
+.index-menu .menu-item .comment{
+    margin-top: 4px;
+    color: #b7b7b7;
+    font-size: 12px;
+}
+
+.index-menu .menu-item .line{
+    width: 192px;
+    border-top: 1px solid #e3e1e1;
+    margin-top: 10px;
+}
+
+.index-menu .menu-more-btn{
+    margin: 0 auto;
+    width: 110px;
+    height: 32px;
+    padding-left: 16px;
+    border: 1px solid #d7d5d5;
+    font-size: 14px;
+    line-height: 32px;
+    color: #b7b7b7
+}
+
+.index-menu .menu-more-btn .icon{
+}
+
+/*parel*/
+
+.index-parel{
+    margin-top: 200px;
+}
+
+.index-parel-header h3{
+    font-size 20px;
+    color: #3b3b3b;
+    font-weight: normal;
+    float: left;
+    margin-right: 48px;
+}
+
+.index-parel-header .line{
+    float: left;
+    margin-top: 10px;
+    width: 200px;
+    border-top: 1px solid #e5e3e3;
+}
+
+.index-parel-header .btn-group{
+    font-size: 0;
+    float: right;
+}
+
+.index-parel-header .btn{
+    display: inline-block;
+    margin-left: 11px;
+    width: 9px;
+    height: 9px;
+    background: #dedede;
+    border-radius: 50%;
+}
+
+.index-parel-header .active{
+    background: #9b9b9b;
+}
+
+.index-parel-body{
+    margin-top: 75px;
+}
+
+.index-food-list{
+    overflow: hidden;
+}
+
+.index-food-list ul{
+    width: 1160px;
+}
+
+.index-food-list .food-item{
+    float: left;
+    width: 230px;
+    margin-right: 60px;
+}
+
+.index-food-list .food-item .banner{
+    margin-bottom: 30px;
+    height: 202px;
+}
+
+.index-food-list .food-item .name{
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.index-food-list .food-item .star-bar{
+    font-size: 0px;
+}
+
+.index-food-list .food-item .star{
+    display: inline-block;
+    width: 12px;
+    height: 13px;
+}
+
+.index-food-list .food-item .price{
+    float: right;
+}
